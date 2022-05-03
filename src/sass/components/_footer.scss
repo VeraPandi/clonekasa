@@ -1,0 +1,35 @@
+.footer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 209px;
+   background-color: #000;
+
+   @media (min-width: 1125px) {
+      justify-content: initial;
+   }
+
+   .logo-footer {
+      display: flex;
+      align-self: center;
+      height: 40px;
+      width: 122px;
+      margin: 15px;
+
+      @media (min-width: 1125px) {
+         margin: 65px 0 45px;
+      }
+   }
+
+   .copyrights {
+      display: flex;
+      align-self: center;
+      font-size: 14px;
+      color: #fff;
+
+      @media (min-width: 1125px) {
+         font-size: 24px;
+         font-weight: 500;
+      }
+   }
+}

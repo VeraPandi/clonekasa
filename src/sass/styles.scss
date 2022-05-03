@@ -1,0 +1,8 @@
+// Global styles
+@use "./base/global";
+
+// Components styles
+@use "./components/header";
+@use "./components/banner";
+@use "./components/card";
+@use "./components/footer";
