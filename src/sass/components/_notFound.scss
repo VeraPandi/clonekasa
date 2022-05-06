@@ -1,43 +1,60 @@
 .errorPage {
    display: flex;
    flex-direction: column;
-   margin: 190px auto;
+   flex-grow: 1;
+   position: relative;
+   height: 255px;
+   padding: 40% 0;
 
-   .errorCode {
-      width: 198px;
-      margin: auto;
-      padding: 2vh;
-
-      @media (min-width: 1125px) {
-         width: 597px;
-      }
+   @media (min-height: 1000px) {
+      top: -50px;
    }
 
-   .errorMessage {
+   @media (min-width: 1125px) {
       margin: 0 auto;
-      padding: 2vh;
-      font-size: 18px;
-      font-weight: 500;
-      letter-spacing: 0.6px;
-      color: #ff6060;
-
-      @media (min-width: 1125px) {
-         padding: 72px;
-         font-size: 36px;
-      }
+      padding: 0;
    }
+}
 
-   .backLink {
-      position: relative;
-      top: 87px;
-      padding: 4vh;
-      font-size: 14px;
-      font-weight: 500;
-      text-align: center;
-      color: #ff6060;
+.errorCode {
+   width: 198px;
+   margin: auto;
 
-      @media (min-width: 1125px) {
-         font-size: 18px;
-      }
+   @media (min-width: 1125px) {
+      display: flex;
+      height: 597px;
+      width: 597px;
+      margin-top: 15vh;
+   }
+}
+
+.errorMessage {
+   margin: 0 auto;
+   padding: 30px;
+   font-size: 18px;
+   font-weight: 500;
+   text-align: center;
+   letter-spacing: 0.6px;
+   color: #ff6060;
+
+   @media (min-width: 1125px) {
+      height: 100%;
+      padding: 15px 32px;
+      font-size: 36px;
+   }
+}
+
+.backLink {
+   position: relative;
+   top: 87px;
+   font-size: 14px;
+   font-weight: 500;
+   text-align: center;
+   color: #ff6060;
+
+   @media (min-width: 1125px) {
+      position: initial;
+      height: 100%;
+      font-size: 18px;
    }
 }

@@ -1,7 +1,7 @@
 import apartments from "../datas/apartments";
 console.log(apartments);
 
-const Cards = () => {
+const Card = () => {
    return (
       <div className="cards">
          {apartments.map((apartment, index) => (
@@ -14,4 +14,4 @@ const Cards = () => {
    );
 };
 
-export default Cards;
+export default Card;

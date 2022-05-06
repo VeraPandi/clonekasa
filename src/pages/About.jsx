@@ -1,7 +1,13 @@
-// import Navigation from "../components/Navigation";
+import Banner from "../components/Banner";
+import Collapse from "../components/Collapse";
 
 const About = () => {
-   return <div>{/* <Navigation /> */}</div>;
+   return (
+      <main className="content">
+         {<Banner />}
+         {<Collapse />}
+      </main>
+   );
 };
 
 export default About;

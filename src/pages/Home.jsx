@@ -1,11 +1,11 @@
 import Banner from "../components/Banner";
-import Cards from "../components/Cards";
+import Card from "../components/Card";
 
 const Home = () => {
    return (
       <main>
          <Banner />
-         <Cards />
+         <Card />
       </main>
    );
 };
