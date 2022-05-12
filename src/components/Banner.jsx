@@ -1,10 +1,11 @@
-import bannerHome from "../assets/bannerHome.png";
-import bannerAbout from "../assets/bannerAbout.png";
 import { useLocation } from "react-router-dom";
+import bannerHome from "../assets/images/bannerHome.png";
+import bannerAbout from "../assets/images/bannerAbout.png";
 
 const Banner = () => {
    const location = useLocation();
 
+   // Displays a page banner if the location pathname matches the page.
    return (
       <div className="banner">
          {location.pathname === "/" && (

@@ -1,0 +1,45 @@
+.infos {
+   margin: 8px 20px;
+
+   @media (min-width: 1125px) {
+      position: relative;
+      margin: 0 100px 20px;
+   }
+}
+
+.infos .titles {
+   color: #ff6060;
+
+   h1 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.5;
+
+      @media (min-width: 635px) {
+         font-size: 26px;
+      }
+
+      @media (min-width: 1125px) {
+         width: 75%;
+         padding: 3px 0;
+         font-size: 36px;
+      }
+   }
+
+   h2 {
+      margin: 10px 0;
+      font-size: 14px;
+      font-weight: 500;
+
+      @media (min-width: 635px) {
+         font-size: 17px;
+      }
+
+      @media (min-width: 1125px) {
+         width: 75%;
+         margin: 0;
+         font-size: 18px;
+      }
+   }
+}

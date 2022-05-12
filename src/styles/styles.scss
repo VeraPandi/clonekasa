@@ -1,0 +1,35 @@
+// --------------------------------------------------------
+
+// Information
+
+// - About responsive
+// The responsive was made in "mobile first", suitable for screens from 250px to
+// over 1420px, with 6 breakpoints in order to correctly manage all the pages.
+// If you think the existing breakpoints are not suitable for new layout needs,
+// feel free to add whatever breakpoint you want.
+// Breakpoints : min 375 / min 500 / min 635 / min 960 / min 1125 / min 1420
+
+// --------------------------------------------------------
+
+// Global
+@use "./base/global";
+
+// Components
+@use "./components/header";
+@use "./components/navigation";
+@use "./components/banner";
+@use "./components/card";
+@use "./components/notFound";
+@use "./components/collapse";
+@use "./components/gallery";
+@use "./components/host";
+@use "./components/rating";
+@use "./components/tag";
+@use "./components/infos";
+@use "./components/footer";
+
+// Pages
+@use "./pages/homePage";
+@use "./pages/housingPage";
+@use "./pages/aboutPage";
+@use "./pages/notFoundPage";

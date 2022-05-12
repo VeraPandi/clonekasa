@@ -10,15 +10,5 @@ body {
 #root {
    display: flex;
    flex-direction: column;
-   height: 100vh;
-}
-
-main {
-   margin: auto;
-   margin: 20px;
-
-   @media (min-width: 1125px) {
-      margin: 0 100px;
-      margin-bottom: 40px;
-   }
+   position: relative;
 }

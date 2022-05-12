@@ -1,13 +1,15 @@
-import apartments from "../datas/apartments";
-console.log(apartments);
+import { Link } from "react-router-dom";
+import housings from "../datas/housings";
 
 const Card = () => {
    return (
       <div className="cards">
-         {apartments.map((apartment, index) => (
-            <div className="card" key={`${apartment}-${index}`}>
-               <img src={apartment.cover} alt="" />
-               <p className="card-title">{apartment.title}</p>
+         {housings.map((housing, index) => (
+            <div className="card" key={housing.id}>
+               <Link to={`/housing/${housing.id}`} className="housing">
+                  <img src={housing.cover} alt={housing.title} />
+                  <p className="card-title">{housing.title}</p>
+               </Link>
             </div>
          ))}
       </div>

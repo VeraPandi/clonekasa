@@ -3,8 +3,9 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Housing from "./pages/Housing";
 import Error from "./pages/404";
-import "./sass/styles.css";
+import "./styles/styles.css";
 
 const App = () => {
    return (
@@ -13,7 +14,8 @@ const App = () => {
          <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="*" element={<Error />} />
+            <Route path="/housing/:id" element={<Housing />} />
+            <Route path="*" element={<Error />} /> {/* 404 Page */}
          </Routes>
          <Footer />
       </BrowserRouter>

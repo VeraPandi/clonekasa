@@ -1,0 +1,66 @@
+.errorCode {
+   position: relative;
+   top: -36px;
+   width: 198px;
+
+   @media (min-width: 635px) {
+      width: 270px;
+   }
+
+   @media (min-width: 960px) {
+      display: flex;
+      position: relative;
+      top: -3px;
+      width: 597px;
+   }
+
+   @media (min-width: 1125px) {
+      position: relative;
+      top: 150px;
+   }
+}
+
+.errorMessage {
+   margin: 0 auto;
+   padding: 30px;
+   font-size: 18px;
+   font-weight: 500;
+   text-align: center;
+   letter-spacing: 0.6px;
+   color: #ff6060;
+
+   @media (min-width: 635px) {
+      font-size: 20px;
+   }
+
+   @media (min-width: 960px) {
+      padding: 50px;
+      font-size: 26px;
+   }
+
+   @media (min-width: 1125px) {
+      position: relative;
+      top: 120px;
+      padding: 100px 32px;
+      font-size: 36px;
+   }
+}
+
+.backLink {
+   position: relative;
+   top: 87px;
+   font-size: 14px;
+   font-weight: 500;
+   color: #ff6060;
+
+   @media (min-width: 635px) {
+      font-size: 16px;
+   }
+
+   @media (min-width: 1125px) {
+      position: relative;
+      top: 120px;
+      height: 100%;
+      font-size: 20px;
+   }
+}

@@ -3,7 +3,7 @@ import Card from "../components/Card";
 
 const Home = () => {
    return (
-      <main>
+      <main className="main-home">
          <Banner />
          <Card />
       </main>

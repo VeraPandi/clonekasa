@@ -1,0 +1,23 @@
+.rating {
+   @media (min-width: 1125px) {
+      margin: 25px 0;
+   }
+
+   img {
+      height: 15px;
+      margin-right: 5px;
+
+      @media (min-width: 635px) {
+         height: 18px;
+      }
+
+      @media (min-width: 1125px) {
+         height: 30px;
+         margin-right: 11px;
+
+         &:last-child {
+            margin-right: 0;
+         }
+      }
+   }
+}
