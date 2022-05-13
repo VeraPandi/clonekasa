@@ -9,7 +9,7 @@ import "./styles/styles.css";
 
 const App = () => {
    return (
-      <BrowserRouter>
+      <BrowserRouter basename="/kasa">
          <Header />
          <Routes>
             <Route path="/" element={<Home />} />
