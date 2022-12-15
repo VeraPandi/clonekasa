@@ -4,7 +4,7 @@ import housings from "../datas/housings";
 const Card = () => {
    return (
       <div className="cards">
-         {housings.map((housing, index) => (
+         {housings.map((housing) => (
             <div className="card" key={housing.id}>
                <Link to={`/housing/${housing.id}`} className="housing">
                   <img src={housing.cover} alt={housing.title} />

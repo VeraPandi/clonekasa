@@ -1,5 +1,3 @@
-# PROJET 11
-
 ## Mission
 
 Développer une application Web avec React et React Router
@@ -21,4 +19,4 @@ Développer une application Web avec React et React Router
 ## Réalisation
 
 -  Voir le projet fini : [Démo](https://verapandi.github.io/kasa/)
--  Voir le projet fini en local : http://localhost:3000
+-  Voir le projet fini en local : http://localhost:3000/kasa
